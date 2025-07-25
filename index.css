@@ -1,0 +1,113 @@
+.show-border {
+    border: solid;
+    border-radius: 3px;
+    border-color: blueviolet;
+}
+
+.header {
+    top: 0;
+    display: flex;
+    justify-content: end;
+    height: 20vh;
+    position: sticky;
+    /* position: relative; */
+    padding:  3vh 50px 3vh 50px;
+    /* padding:  3vh 50px 3vh 50px; */
+    background:rgba(0, 0, 0,0.6);
+    backdrop-filter: blur(5px);
+    height: 30px;
+}
+
+.header .header-title {
+    display: flex;
+    min-width: 200px;
+    width: 100%;
+    justify-content: start; /* Centers content horizontally */
+    align-items: center;
+}
+
+.header-title .header-title-text {
+    color:lightgrey;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 2vh;
+    left: 0;
+    top: 0;
+    width: calc(100vw - 100px);
+}
+
+a.nav-button{
+    display: flex;
+    min-width: 200px;
+    width: calc(100% / 10);
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container .navigation-text {
+    color: whitesmoke;
+    text-align: center;
+} 
+
+div.transbox {
+  background:rgba(0, 0, 0,0.6);
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-margin-top: 20vh;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.section .section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section .section-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: whitesmoke
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1547394765-185e1e68f34e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.vl {
+  border-left: 1px solid lightgrey;
+  height: 100%;
+}
+
+* {
+    color: whitesmoke
+}
+
+.pdfCV {
+    width: calc(100vh * 0.707);
+    height: 100vh;
+}
